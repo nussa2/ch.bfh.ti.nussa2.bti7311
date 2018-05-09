@@ -1,0 +1,311 @@
+{
+  "help": "https://opendata.swiss/api/3/action/help_show?name=package_show",
+  "success": true,
+  "result": {
+    "license_title": null,
+    "maintainer": "kundendienst@meteoschweiz.ch",
+    "coverage": "",
+    "issued": "2013-08-26T02:00:00",
+    "private": false,
+    "maintainer_email": "kundendienst@meteoschweiz.ch",
+    "num_tags": 0,
+    "contact_points": [
+      {
+        "email": "kundendienst@meteoschweiz.ch",
+        "name": "kundendienst@meteoschweiz.ch"
+      }
+    ],
+    "keywords": {
+      "fr": [
+        "climatologie",
+        "temps-meteo",
+        "parametre-meteorologique",
+        "meteorologie",
+        "climat",
+        "caracteristiques-geographiques-meteorologiques",
+        "conditions-atmospheriques"
+      ],
+      "de": [
+        "klimatologie",
+        "wetter",
+        "meteorologischer-parameter",
+        "meteorologie",
+        "klima",
+        "meteorologisch-geografische-kennwerte",
+        "atmospharische-bedingungen"
+      ],
+      "en": [
+        "climatology",
+        "weather",
+        "meteorological-parameter",
+        "meteorology",
+        "climate",
+        "meteorological-geographical-features",
+        "atmospheric-conditions"
+      ],
+      "it": [
+        "climatologia",
+        "tempo",
+        "parametro-meteorologico",
+        "meteorologia",
+        "clima",
+        "elementi-geografici-meteorologici",
+        "condizioni-atmosferiche"
+      ]
+    },
+    "temporals": {},
+    "id": "03a18999-3cda-494e-86f1-2e882df603c1",
+    "metadata_created": "2016-01-29T13:07:07.000023",
+    "relationships_as_object": [],
+    "display_name": {
+      "fr": "Donn\u00e9es SwissMetNet (SMN)",
+      "de": "Messdaten SwissMetNet (SMN)",
+      "en": "Data SwissMetNet (SMN)",
+      "it": "Dati SwissMetNet (SMN)"
+    },
+    "metadata_modified": "2018-05-09T07:20:35.428775",
+    "author": "Bundesamt f\u00fcr Meteorologie und Klimatologie",
+    "author_email": null,
+    "relations": [
+      {
+        "url": "http://map.geo.admin.ch",
+        "label": "Link zum Fachportal"
+      }
+    ],
+    "state": "active",
+    "version": null,
+    "spatial": "Liechtenstein",
+    "license_id": null,
+    "type": "dataset",
+    "resources": [
+      {
+        "byte_size": 0,
+        "coverage": "",
+        "cache_last_updated": null,
+        "issued": "2013-08-26T02:00:00",
+        "package_id": "03a18999-3cda-494e-86f1-2e882df603c1",
+        "datastore_active": false,
+        "id": "46c178b0-0348-4da6-9451-5f3489ad9c9f",
+        "size": null,
+        "license": "",
+        "display_name": {
+          "fr": "Download",
+          "de": "Download",
+          "en": "Download",
+          "it": "Download"
+        },
+        "title": {
+          "fr": "Download",
+          "de": "Download",
+          "en": "Download",
+          "it": "Download"
+        },
+        "download_url": "http://data.geo.admin.ch/ch.meteoschweiz.swissmetnet/data.zip",
+        "state": "active",
+        "media_type": "application/zip",
+        "hash": "",
+        "description": {
+          "fr": "Serveur de t\u00e9l\u00e9chargement de geo.admin.ch",
+          "en": "Download server from geo.admin.ch",
+          "de": "Download von data.geo.admin.ch",
+          "it": "Server di download di geo.admin.ch"
+        },
+        "format": "ZIP",
+        "mimetype_inner": null,
+        "url_type": null,
+        "mimetype": null,
+        "cache_url": null,
+        "name": {
+          "fr": "Download",
+          "de": "Download",
+          "en": "Download",
+          "it": "Download"
+        },
+        "language": [
+          "de"
+        ],
+        "rights": "NonCommercialAllowed-CommercialWithPermission-ReferenceRequired",
+        "url": "http://data.geo.admin.ch/ch.meteoschweiz.swissmetnet/data.zip",
+        "created": "2018-05-09T07:20:36.471509",
+        "modified": false,
+        "last_modified": null,
+        "position": 0,
+        "revision_id": "94be8c5e-beb5-47ee-a310-560e88622706",
+        "identifier": "",
+        "resource_type": null
+      },
+      {
+        "byte_size": 0,
+        "coverage": "",
+        "cache_last_updated": null,
+        "issued": "2013-08-26T02:00:00",
+        "package_id": "03a18999-3cda-494e-86f1-2e882df603c1",
+        "datastore_active": false,
+        "id": "503a8197-dd32-4b95-a802-4fc0397ef84a",
+        "size": null,
+        "license": "",
+        "display_name": {
+          "fr": "Download",
+          "de": "Download",
+          "en": "Download",
+          "it": "Download"
+        },
+        "title": {
+          "fr": "Download",
+          "de": "Download",
+          "en": "Download",
+          "it": "Download"
+        },
+        "download_url": "http://data.geo.admin.ch",
+        "state": "active",
+        "media_type": "Text (.txt)",
+        "hash": "",
+        "description": {
+          "fr": "",
+          "en": "",
+          "de": "Link f\u00fcr Datenbezug",
+          "it": ""
+        },
+        "format": "TXT",
+        "mimetype_inner": null,
+        "url_type": null,
+        "mimetype": null,
+        "cache_url": null,
+        "name": {
+          "fr": "Download",
+          "de": "Download",
+          "en": "Download",
+          "it": "Download"
+        },
+        "language": [
+          "de"
+        ],
+        "rights": "NonCommercialAllowed-CommercialWithPermission-ReferenceRequired",
+        "url": "http://data.geo.admin.ch",
+        "created": "2018-05-09T07:20:36.471524",
+        "modified": false,
+        "last_modified": null,
+        "position": 1,
+        "revision_id": "94be8c5e-beb5-47ee-a310-560e88622706",
+        "identifier": "",
+        "resource_type": null
+      }
+    ],
+    "publishers": [
+      {
+        "label": "Bundesamt f\u00fcr Meteorologie und Klimatologie"
+      }
+    ],
+    "num_resources": 2,
+    "description": {
+      "fr": "valeurs actuelles 10 minutes des param\u00e8tres m\u00e9t\u00e9orologiques suivants : temp\u00e9rature, dur\u00e9e d'ensoleillement, pr\u00e9cipitations, vent, pression, humidit\u00e9 relative",
+      "de": "Aktuelle 10 Min.-Messwerte der folgenden meteorologischen Parameter: Temperatur, Sonne, Niederschlag, Wind, Luftdruck, relative Feuchte.",
+      "en": "current 10-min values of the following meteorological parameters: temperature, sunshine duration, precipitation, wind, pressure, rel. humidity",
+      "it": "Valori attuali di 10\u2019 dei seguenti parametri meteorologici: temperatura,\u00a0 soleggiamento, precipitazioni, vento, pressione,\u00a0 umidit\u00e0\u00a0 relativa"
+    },
+    "tags": [],
+    "title": {
+      "fr": "Donn\u00e9es SwissMetNet (SMN)",
+      "de": "Messdaten SwissMetNet (SMN)",
+      "en": "Data SwissMetNet (SMN)",
+      "it": "Dati SwissMetNet (SMN)"
+    },
+    "language": [],
+    "groups": [
+      {
+        "display_name": {
+          "fr": "G\u00e9ographie",
+          "de": "Geographie",
+          "en": "Geography",
+          "it": "Geografia"
+        },
+        "description": {
+          "fr": "",
+          "de": "",
+          "en": "",
+          "it": ""
+        },
+        "image_display_url": "",
+        "title": {
+          "fr": "G\u00e9ographie",
+          "de": "Geographie",
+          "en": "Geography",
+          "it": "Geografia"
+        },
+        "id": "a20e9d52-0d20-413c-a8ad-9ffd4523bec6",
+        "name": "geography"
+      },
+      {
+        "display_name": {
+          "fr": "Territoire et environnement",
+          "de": "Raum und Umwelt",
+          "en": "Territory and environment",
+          "it": "Territorio e ambiente"
+        },
+        "description": {
+          "fr": "",
+          "de": "",
+          "en": "",
+          "it": ""
+        },
+        "image_display_url": "",
+        "title": {
+          "fr": "Territoire et environnement",
+          "de": "Raum und Umwelt",
+          "en": "Territory and environment",
+          "it": "Territorio e ambiente"
+        },
+        "id": "27b314a5-57b6-4c4e-9c9f-6923365eaecc",
+        "name": "territory"
+      }
+    ],
+    "creator_user_id": "0594d621-c92a-4a32-809c-98e281dc7944",
+    "relationships_as_subject": [],
+    "organization": {
+      "display_name": {
+        "fr": "Office f\u00e9d\u00e9ral de m\u00e9t\u00e9orologie et de climatologie M\u00e9t\u00e9oSuisse",
+        "de": "Bundesamt f\u00fcr Meteorologie und Klimatologie MeteoSchweiz",
+        "en": "Federal Office of Meteorology and Climatology MeteoSwiss",
+        "it": "Ufficio federale di meteorologia e climatologia MeteoSvizzera"
+      },
+      "description": {
+        "fr": "Le service m\u00e9t\u00e9orologique et climatologique national. A partir de l'ensemble des stations de mesure, des radars m\u00e9t\u00e9orologiques et des satellites M\u00e9t\u00e9oSuisse \u00e9labore pronostics, alertes et analyse climatiques.",
+        "de": "Der nationale Wetter- und Klimadienst. Messstationen, Wetterradars und Satelliten \u00fcberwachen das Wetter. Aus den Messdaten erstellt MeteoSchweiz Prognosen, Warnungen und Klimaanalysen",
+        "en": "The national weather and climate service. Meteorological stations, weather radars and satellites monitor the weather. Using the collected data, MeteoSwiss generates forecasts, warnings and climate analyses.",
+        "it": "Il servizio nazionale di meteorologia e climatologia. Sulla base di dati di stazioni di rilevamento, radar meteorologici e satelliti MeteoSvizzera elabora previsioni del tempo, allerte e le analisi climatologiche."
+      },
+      "image_display_url": "",
+      "url": "",
+      "package_count": 6,
+      "created": "2015-12-04T09:25:23.192089",
+      "name": "bundesamt-fur-meteorologie-und-klimatologie-meteoschweiz",
+      "is_organization": true,
+      "state": "active",
+      "image_url": "",
+      "revision_id": "eba18e69-406f-47c7-a3c8-c2256d8b22b0",
+      "groups": [],
+      "type": "organization",
+      "title": {
+        "fr": "Office f\u00e9d\u00e9ral de m\u00e9t\u00e9orologie et de climatologie M\u00e9t\u00e9oSuisse",
+        "de": "Bundesamt f\u00fcr Meteorologie und Klimatologie MeteoSchweiz",
+        "en": "Federal Office of Meteorology and Climatology MeteoSwiss",
+        "it": "Ufficio federale di meteorologia e climatologia MeteoSvizzera"
+      },
+      "political_level": "confederation",
+      "num_followers": 0,
+      "id": "887dd36d-e6da-4ec0-a5db-2cc450571963",
+      "tags": [],
+      "approval_status": "approved"
+    },
+    "name": "messdaten-smn-swissmetnet",
+    "isopen": false,
+    "accrual_periodicity": "http://purl.org/cld/freq/continuous",
+    "owner_org": "887dd36d-e6da-4ec0-a5db-2cc450571963",
+    "modified": false,
+    "url": "http://www.meteoschweiz.admin.ch/home/wetter/messwerte/messwerte-an-stationen.html",
+    "extras": [],
+    "see_alsos": {},
+    "revision_id": "9b04f8bc-3ac0-4e7a-b4b2-c033c1d1d6d9",
+    "identifier": "3e145cfb-b0d8-4237-afbb-a1ce6089ae75@bundesamt-fur-meteorologie-und-klimatologie-meteoschweiz"
+  }
+}
