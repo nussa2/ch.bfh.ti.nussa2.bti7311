@@ -1,6 +1,7 @@
 package ch.bfh.ti.nussa2.bti7311.input;
 
-import ch.bfh.ti.nussa2.bti7311.model.MeteoData;
+import ch.bfh.ti.nussa2.bti7311.model.SMNWeatherData;
+import ch.bfh.ti.nussa2.bti7311.model.SMNWeatherData;
 import com.opencsv.bean.CsvToBeanBuilder;
 import com.opencsv.enums.CSVReaderNullFieldIndicator;
 
@@ -13,14 +14,14 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DataImporter {
+public class SMNDataImporter {
 
-    public List<MeteoData> importData (){
+    public List<SMNWeatherData> importData (){
 
 
         URL swissMetNet = null;
 
-        List<MeteoData> meteoData = new ArrayList<>();
+        List<SMNWeatherData> meteoData = new ArrayList<>();
 
         URLConnection connection = null;
 
@@ -41,7 +42,7 @@ public class DataImporter {
         try (BufferedReader in = new BufferedReader(
                 new InputStreamReader(connection.getInputStream()));){
 
-            meteoData = new CsvToBeanBuilder(in).withType(MeteoData.class).withEscapeChar("-".toCharArray()[0]).withSkipLines(2).withSeparator('|').build().parse();
+            meteoData = new CsvToBeanBuilder(in).withType(SMNWeatherData.class).withEscapeChar("-".toCharArray()[0]).withSkipLines(2).withSeparator('|').build().parse();
 
         } catch (IOException e) {
             e.printStackTrace();

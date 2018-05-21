@@ -1,6 +1,6 @@
 package ch.bfh.ti.nussa2.bti7311.input;
 
-import ch.bfh.ti.nussa2.bti7311.model.MeteoData;
+import ch.bfh.ti.nussa2.bti7311.model.SMNWeatherData;
 
 import org.junit.BeforeClass;
 
@@ -10,17 +10,17 @@ import static org.junit.Assert.*;
 
 public class DataImporterTest {
 
-    static DataImporter dataImporter;
+    static SMNDataImporter dataImporter;
 
     @BeforeClass
     public static void setup(){
-        dataImporter = new DataImporter();
+        dataImporter = new SMNDataImporter();
     }
 
     @org.junit.Test
     public void importData() throws Exception {
 
-        List<MeteoData> data = dataImporter.importData();
+        List<SMNWeatherData> data = dataImporter.importData();
         System.out.println(data);
 
         assertTrue(data.size() > 0);
