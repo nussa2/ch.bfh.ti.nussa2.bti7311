@@ -16,28 +16,28 @@
  * limitations under the License.
  */
 
-package ch.bfh.ti.nussa2.bti7311;
+package ch.bfh.ti.nussa2.bti7311.jobs;
 
 import org.apache.flink.api.java.ExecutionEnvironment;
 
 /**
  * Skeleton for a Flink Batch Job.
- *
+ * <p>
  * <p>For a tutorial how to write a Flink batch application, check the
  * tutorials and examples on the <a href="http://flink.apache.org/docs/stable/">Flink Website</a>.
- *
+ * <p>
  * <p>To package your appliation into a JAR file for execution,
  * change the main class in the POM.xml file to this class (simply search for 'mainClass')
  * and run 'mvn clean package' on the command line.
  */
-public class BatchJob {
+public class EmptyBatchJob {
 
-	public static void main(String[] args) throws Exception {
-		// set up the batch execution environment
-		final ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
+    public static void main(String[] args) throws Exception {
+        // set up the batch execution environment
+        final ExecutionEnvironment env = ExecutionEnvironment.getExecutionEnvironment();
 
 		/*
-		 * Here, you can start creating your execution plan for Flink.
+         * Here, you can start creating your execution plan for Flink.
 		 *
 		 * Start with getting some data from the environment, like
 		 * 	env.readTextFile(textPath);
@@ -60,7 +60,7 @@ public class BatchJob {
 		 *
 		 */
 
-		// execute program
-		env.execute("Flink Batch Java API Skeleton");
-	}
+        // execute program
+        env.execute("Flink Batch Java API Skeleton");
+    }
 }

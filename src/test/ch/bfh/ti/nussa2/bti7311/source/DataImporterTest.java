@@ -1,7 +1,8 @@
-package ch.bfh.ti.nussa2.bti7311.input;
+package ch.bfh.ti.nussa2.bti7311.source;
 
 import ch.bfh.ti.nussa2.bti7311.model.SMNWeatherData;
 
+import ch.bfh.ti.nussa2.bti7311.source.SMNDataImporter;
 import org.junit.BeforeClass;
 
 import java.util.List;
