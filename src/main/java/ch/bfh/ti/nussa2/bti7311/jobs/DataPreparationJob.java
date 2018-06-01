@@ -21,6 +21,7 @@ package ch.bfh.ti.nussa2.bti7311.jobs;
 import ch.bfh.ti.nussa2.bti7311.model.SMNWeatherData;
 import ch.bfh.ti.nussa2.bti7311.model.SMNWeatherDataJSONSchema;
 import ch.bfh.ti.nussa2.bti7311.source.SMNWeatherSource;
+import org.apache.flink.api.common.serialization.SimpleStringSchema;
 import org.apache.flink.streaming.api.datastream.DataStream;
 import org.apache.flink.streaming.api.environment.StreamExecutionEnvironment;
 import org.apache.flink.streaming.connectors.kafka.FlinkKafkaProducer011;
@@ -37,17 +38,17 @@ public class DataPreparationJob {
         DataStream<SMNWeatherData> stream = env
                 .addSource(new SMNWeatherSource());
 
-        FlinkKafkaProducer011<SMNWeatherData> myProducer = new FlinkKafkaProducer011<SMNWeatherData>(
-                "localhost:9092",            // broker list
-                "weather",                  // target topic
+        FlinkKafkaProducer011<SMNWeatherData> kafka = new FlinkKafkaProducer011<SMNWeatherData>(
+                "localhost:9092",        // broker list
+                "weather",                 // target topic
                 new SMNWeatherDataJSONSchema());   // serialization schema
 
         // versions 0.10+ allow attaching the records' event timestamp when writing them to Kafka;
         // this method is not available for earlier Kafka versions
-        myProducer.setWriteTimestampToKafka(true);
+        kafka.setWriteTimestampToKafka(true);
 
-        stream.addSink(myProducer);
+        stream.addSink(kafka);
 
-        env.execute("Prepare Weather Data for Kafka");
+        env.execute("PrepareWeatherDataForKafkaJob");
     }
 }
